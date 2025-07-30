@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:open/style.dart';
 
 void main() {
   runApp(
@@ -20,11 +21,11 @@ void main() {
             gradient: LinearGradient(colors: [Colors.purple, Colors.cyan]),
           ),
           child: Center(
-            child: Text(
-              "hi Moral Values",
-              style: TextStyle(color: Colors.white),
-            ),
+            child: stylrd(),
           ),
         );
   }
 }
+
+
+
